@@ -137,6 +137,14 @@ public class ScientificCalculatorTest {
 		
 	}
 	
+	@Test
+	public void ScientificCalculatorDivide4() {
+		
+		ScientificCalculator sc=new ScientificCalculator();
+		assertEquals(2147483647,sc.divide(-3,0));
+		
+	}
+	
 	
 
 }
